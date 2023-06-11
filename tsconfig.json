@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "useUnknownInCatchVariables": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "target": "ES2020",
+        "outDir": "dist",
+        "lib": ["ES2021.String"],
+        "experimentalDecorators": true
+    },
+    "include": ["src/**/*", "src/**/*.json", "index.ts"],
+    "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+}
